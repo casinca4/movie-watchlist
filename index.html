@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="style.css">
+  <title>Movie Watchlist</title>
+</head>
+<body>
+  <a name="top"></a>
+  <header>
+    <div class="top">
+      <h1 class="title">Find your film</h1>
+      <a class="link-to-watchlist" href="watchlist.html">My Watchlist</a>
+    </div> <!-- end of top-->
+
+      <form action="" class="search-container">
+        <div class="search-input">
+          <i class="fa-solid fa-magnifying-glass loupe"></i>
+          <label for="movie-search"></label>
+          <input class="search-bar" type="search" id="movie-search" name="q"  placeholder="Search for a movie" required>
+        </div>  <!-- end of search-input  -->
+        <button class="search-btn" type="submit">Search</button>
+      </form> <!-- end  search-container  -->
+  </header>
+
+  <main>
+    <div class="start-screen">
+      <img src="img/Icon.png" alt="">
+      <p>Start exploring</p> 
+      </div> <!-- <end of start-screen -->
+    <!-- <div class="movie-search-result"> -->
+      <div class="movie-list">
+      </div><!-- end of movie-list -->
+      <!-- <p class="hallo">Hallo</p> -->
+      <a href="#top" class="go-to-top">Go to top</a>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
